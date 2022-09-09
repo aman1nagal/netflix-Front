@@ -16,28 +16,29 @@
 }.midimg{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}.imglobo{
-    display: flex;
+    justify-content: space-around;
 }
 .button {
-    border: none;
-    color: rgb(21, 11, 11);
-    padding: 16px 32px;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    text-align: center;
   }
   
   .button1 {
     background-color: rgb(6, 4, 4); 
-    color: black; 
-    border: 2px solid #050705;
+    color: rgba(232, 241, 231, 0.628); 
   }
   
   .button1:hover {
-    background-color: #4CAF50;
     color: white;
+  }
+  .text{
+    border: 2px;
+  }
+  .mid-section{
+
+  }
+  #textplace{
+    color: #ecf2ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }

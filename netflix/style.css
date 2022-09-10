@@ -16,7 +16,9 @@
 }.midimg{
     display: flex;
     flex-direction: row;
+    height: 400px;
     justify-content: space-around;
+    align-items: center;
 }
 .button {
     text-align: center;
@@ -33,7 +35,9 @@
     border: 2px;
   }
   .mid-section{
-
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 198, 198);
   }
   #textplace{
     color: #ecf2ed;

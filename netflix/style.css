@@ -1,3 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.body{
+  background-color: #141414;
+  height: 700px;
+}
 .sizelobo{
   height: 50px;;
 }
@@ -14,22 +22,16 @@
     height: 190px;
     width: 190px;
 }.midimg{
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     height: 400px;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-evenly;
 }
-.button {
-    text-align: center;
-  }
-  .button1 {
-    background-color: rgb(6, 4, 4); 
-    color: rgba(232, 241, 231, 0.628); 
-  }
-  
-  .button1:hover {
-    color: white;
+  .button:hover {
+    color: rgb(219, 209, 209);
   }
   .text{
     border: 2px;
@@ -37,11 +39,20 @@
   .mid-section{
     display: flex;
     flex-direction: column;
-    background-color: rgb(220, 198, 198);
+    align-items: center;
+    justify-content: center;
   }
   #textplace{
     color: #ecf2ed;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .button{
+    text-align: center;
+    background-color: #141414;
+    color: #DCDCDC;
+    padding: 15px;
+    border: solid 2px #dbdada;
+    font-size: 16px;
   }
